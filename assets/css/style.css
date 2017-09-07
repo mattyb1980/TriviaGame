@@ -1,0 +1,47 @@
+body {
+	background-image: url(../images/80sBG.jpg);
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-family: 'Audiowide', cursive;
+	font-size: 70px;
+}
+
+h2, #timer {
+	text-align: center;
+	font-size: 30px;
+	height: 20px;
+}
+
+hr {
+	border: 5px solid white;
+}
+
+button {
+	width: 500px;
+	height: 100px;
+	padding: 10px;
+	margin: 20px;
+}
+
+/*#timer {*/
+	/*font-size: 50px;*/
+	/*text-align: center;*/
+/*}*/
+
+#main {
+	margin-top: 40px;
+	background-color: #ee533c;
+	opacity: 0.9;
+	height: auto;
+	padding: 20px 40px 100px 40px;
+	border-radius: 50px;
+}
+
+#choices {
+	margin-top: 400px;
+	padding-left: 20px;
+}
