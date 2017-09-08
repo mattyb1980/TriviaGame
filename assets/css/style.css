@@ -3,11 +3,21 @@ body {
 	background-size: cover;
 }
 
+.answerChoice {
+	background-color: purple;
+	color: white;
+	border-radius: 25px;
+}
+
+button input:focus {
+outline: none;
+}
+
 h1 {
 	text-align: center;
 	color: white;
 	font-family: 'Audiowide', cursive;
-	font-size: 70px;
+	font-size: 50px;
 }
 
 h2, #timer {
@@ -35,13 +45,35 @@ button {
 #main {
 	margin-top: 40px;
 	background-color: #ee533c;
-	opacity: 0.9;
+	opacity: .95;
 	height: auto;
-	padding: 20px 40px 100px 40px;
+	padding: 20px 40px 20px 40px;
 	border-radius: 50px;
 }
 
 #choices {
-	margin-top: 400px;
+	margin-top: 50px;
 	padding-left: 20px;
 }
+
+#startButton {
+	margin-left: 300px;
+	background-color: purple;
+	color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
